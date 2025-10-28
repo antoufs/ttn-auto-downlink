@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: ttn-auto-downlink
+    env: python
+    buildCommand: ""
+    startCommand: python ttn_auto_downlink.py
